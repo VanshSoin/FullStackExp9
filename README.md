@@ -99,8 +99,3 @@ This experiment successfully demonstrates a real-world stateless authentication 
 The system validates user credentials from MySQL and returns a signed token for authenticated use.
 Development in Eclipse IDE and API testing in Postman validated complete practical understanding of JWT-based authentication architecture.
 
-🌟 Additional Discussion Points (for report enrichment)
-Passwords should be stored in hashed form (e.g., BCrypt) in production.
-JWT should be validated via filter on protected endpoints.
-Secret key and DB credentials should be externalized (environment variables).
-Token refresh and role-based claims can be added for advanced security.
